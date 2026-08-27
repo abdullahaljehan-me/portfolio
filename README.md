@@ -1,18 +1,25 @@
 # Portfolio — Abdullah Al Jehan
 
-A personal portfolio site with a terminal/cyber aesthetic. Built with plain HTML, CSS, and JavaScript — no frameworks, no build step, no npm dependencies.
+Personal portfolio site for Abdullah Al Jehan — engineering aspirant focused on embedded systems, IoT, C programming, and Linux. Plain HTML, CSS, and JavaScript. No frameworks, no build step, no npm dependencies.
+
+**Live: [jehanportfolio.vercel.app](https://jehanportfolio.vercel.app)**
 
 ## Features
 
-- Live GitHub project feed
-- Interactive CLI overlay (`Ctrl+~`)
-- OKLCH-based color theming
+- Single-page layout: Home, About, Skills, Education, Experience, Projects, Research, Blogs, Certifications, Honors, Contact
+- OKLCH-based color theming with light/dark toggle
+- Canvas particle background with constellation line effect
+- Typewriter hero subtitle animation
+- Scroll-reveal animations (`IntersectionObserver`)
+- Interactive terminal/CLI drawer (`Ctrl+~` or floating button) — `help`, `neofetch`, `whoami`, `skills`, `education`, `experience`, `projects`, `blogs`, `contact`, `github`, `theme`, `clear`, `date`
+- Static project cards with GitHub OpenGraph banner images (no live API feed)
+- Contact form via [formsubmit.co](https://formsubmit.co)
+- Toast notification system
 - Downloadable resume
-- Contact form
 
 ## Tech Stack
 
-HTML5 · CSS3 · Vanilla JavaScript · Hosted on GitHub Pages
+HTML5 · CSS3 (OKLCH) · Vanilla JavaScript · Google Fonts (Inter, JetBrains Mono, Space Grotesk) · Hosted on Vercel
 
 ## Structure
 
@@ -23,6 +30,12 @@ HTML5 · CSS3 · Vanilla JavaScript · Hosted on GitHub Pages
 ├── style.css
 ├── README.md
 └── assets/
+    ├── profile.jpg
+    ├── resume.pdf
+    ├── blogs/
+    ├── honors/
+    ├── certificates/
+    └── research/
 ```
 
 ## Setup
