@@ -55,6 +55,7 @@ Open `index.html` in a browser, or serve it locally. Personal details (GitHub us
 <br>Email: abdullahaljehan.me@gmail.com
 <br>GitHub: [@abdullahaljehan-me](https://github.com/abdullahaljehan-me)
 <br>LinkedIn: [abdullah-al-jehan](https://www.linkedin.com/in/abdullah-al-jehan)
+
 ---
 
 <div align="center">
