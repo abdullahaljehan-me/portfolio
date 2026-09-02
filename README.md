@@ -29,6 +29,7 @@ HTML5 · CSS3 (OKLCH) · Vanilla JavaScript · Google Fonts (Inter, JetBrains Mo
 ├── script.js
 ├── style.css
 ├── README.md
+├── LICENSE
 └── assets/
     ├── profile.jpg
     ├── resume.pdf
