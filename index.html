@@ -1,86 +1,94 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abdullah Al Jehan — EEE Undergraduate @ AUST | Embedded Systems & IoT</title>
+    <title>Abdullah Al Jehan — Embedded Systems & Aspiring Engineer</title>
 
-    <!-- Favicons & App Icons -->
+    <!-- ═══ FAVICONS & APP ICONS ═══ -->
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&display=swap"
-      rel="stylesheet"
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
     />
-
-    <!-- SEO & Open Graph Meta Tags -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <!--
+    ═══════════════════════════════════════════════════════
+    SEO & OPEN GRAPH META TAGS (Canonical: Primary Domain)
+    ═══════════════════════════════════════════════════════
+    -->
     <meta
       name="description"
-      content="Portfolio of Abdullah Al Jehan — EEE undergraduate at AUST, Founding Advisor at Kynatium Labs. Focused on Embedded Systems, IoT, VLSI, and Robotics."
+      content="Portfolio of Abdullah Al Jehan. Engineering aspirant specializing in Embedded Systems, IoT, C Programming, Linux, and Robotics. Founding Advisor at Kynatium Labs."
     />
     <meta name="author" content="Abdullah Al Jehan" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://abdullahaljehan.vercel.app/" />
 
-    <!-- Open Graph / Facebook & LinkedIn -->
+    <!-- Open Graph / Facebook & LinkedIn (Points to PRIMARY domain) -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://abdullahaljehan.vercel.app/" />
     <meta
       property="og:title"
-      content="Abdullah Al Jehan — EEE Undergraduate @ AUST | Embedded Systems & IoT"
+      content="Abdullah Al Jehan — Embedded Systems & IoT Developer"
     />
     <meta
       property="og:description"
-      content="EEE Undergraduate @ AUST | Founding Advisor @ Kynatium Labs | VLSI & Semiconductor Technology | Embedded Systems & IoT | Robotics"
+      content="Engineering aspirant specializing in Embedded Systems, IoT, C Programming, Linux, and Robotics."
     />
-    <meta property="og:image" content="https://abdullahaljehan.vercel.app/assets/og-banner.png" />
+    <!-- Replace with your actual banner image path -->
+    <meta
+      property="og:image"
+      content="https://abdullahaljehan.vercel.app/assets/og-banner.png"
+    />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://abdullahaljehan.vercel.app/" />
+    <meta
+      property="twitter:url"
+      content="https://abdullahaljehan.vercel.app/"
+    />
     <meta
       property="twitter:title"
-      content="Abdullah Al Jehan — EEE Undergraduate @ AUST | Embedded Systems & IoT"
+      content="Abdullah Al Jehan — Embedded Systems & IoT Developer"
     />
     <meta
       property="twitter:description"
-      content="EEE Undergraduate @ AUST | Founding Advisor @ Kynatium Labs | VLSI & Semiconductor Technology | Embedded Systems & IoT | Robotics"
+      content="Engineering aspirant specializing in Embedded Systems, IoT, C Programming, Linux, and Robotics."
     />
-    <meta property="twitter:image" content="https://abdullahaljehan.vercel.app/assets/og-banner.png" />
+    <meta
+      property="twitter:image"
+      content="https://abdullahaljehan.vercel.app/assets/og-banner.png"
+    />
 
-    <!-- Schema.org JSON-LD -->
+    <!-- Schema.org JSON-LD (Helps Google understand your profile) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Abdullah Al Jehan",
-        "url": "https://abdullahaljehan.vercel.app/",
+        "url": "https://abdullahaljehan.vercel.app",
         "sameAs": [
           "https://github.com/abdullahaljehan-me",
-          "https://www.linkedin.com/in/abdullahaljehan-me/",
-          "https://facebook.com/abdullah.al.jehan.zim",
-          "https://instagram.com/abdullahaljehan.me",
-          "https://discord.com/users/1007330418598625281",
-          "https://wa.link/26liq0"
+          "https://www.linkedin.com/in/abdullah-al-jehan"
         ],
-        "jobTitle": "EEE Undergraduate",
-        "worksFor": [
-          {
-            "@type": "Organization",
-            "name": "Kynatium Labs"
-          },
-          {
-            "@type": "EducationalOrganization",
-            "name": "Ahsanullah University of Science and Technology"
-          }
-        ],
+        "jobTitle": "Founding Advisor & Embedded Systems Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Kynatium Labs"
+        },
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Dhaka",
@@ -91,113 +99,1795 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="grid-bg">
     <!-- Skip to main content link for accessibility -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <!-- ═══════════════════════════════════════ -->
-    <!-- HEADER & NAVIGATION                     -->
+    <!-- NAVBAR                                  -->
     <!-- ═══════════════════════════════════════ -->
-    <header class="navbar" id="navbar">
+    <nav class="navbar" id="navbar">
       <div class="container nav-container">
-        <a href="#home" class="nav-brand" aria-label="Abdullah Al Jehan - Home">Jehan</a>
-        <nav class="nav-desktop" aria-label="Main Navigation">
-          <ul class="nav-links">
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#experience" class="nav-link">Experience</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#research" class="nav-link">Research</a></li>
-            <li><a href="#credentials" class="nav-link">Credentials</a></li>
-            <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
-          </ul>
-        </nav>
-        <button
-          class="hamburger"
-          id="hamburger"
-          aria-label="Toggle navigation menu"
-          aria-expanded="false"
-          aria-controls="mobileDrawer"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-    </header>
-
-    <!-- Mobile Drawer Overlay & Menu -->
-    <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true"></div>
-    <div
-      class="mobile-drawer"
-      id="mobileDrawer"
-      role="dialog"
-      aria-label="Mobile Navigation"
-      aria-modal="true"
-    >
-      <div class="drawer-header">
-        <span class="drawer-title">Navigation</span>
-        <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close navigation menu">
-          &times;
-        </button>
-      </div>
-      <nav class="drawer-nav">
-        <ul class="drawer-links">
-          <li><a href="#about" class="drawer-link">About</a></li>
-          <li><a href="#experience" class="drawer-link">Experience</a></li>
-          <li><a href="#projects" class="drawer-link">Projects</a></li>
-          <li><a href="#research" class="drawer-link">Research</a></li>
-          <li><a href="#credentials" class="drawer-link">Credentials</a></li>
-          <li><a href="#contact" class="drawer-link drawer-cta">Contact</a></li>
+        <a href="#home" class="nav-logo-avatar" aria-label="Home">
+          <img
+            src="assets/profile.jpg"
+            alt="Abdullah Al Jehan Avatar"
+            class="nav-avatar-img"
+          />
+          <span class="logo-text">Jehan</span>
+          <span class="logo-status-dot" title="System Online"></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#blogs" class="nav-link">Blogs</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-      </nav>
-    </div>
+        <div class="nav-actions">
+          <button
+            id="themeToggle"
+            class="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            <svg
+              class="icon-sun"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </svg>
+            <svg
+              class="icon-moon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </button>
+          <a
+            href="assets/resume.pdf"
+            target="_blank"
+            class="btn btn-primary btn-sm"
+            id="navResumeBtn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+              />
+              <polyline points="14 2 14 8 20 8" />
+              <line x1="16" y1="13" x2="8" y2="13" />
+              <line x1="16" y1="17" x2="8" y2="17" />
+            </svg>
+            Resume
+          </a>
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
 
-    <!-- MAIN CONTENT -->
-    <main id="main-content">
-      <!-- ═══════════════════════════════════════ -->
-      <!-- 1. HOME / HERO SECTION                  -->
-      <!-- ═══════════════════════════════════════ -->
-      <section class="hero" id="home">
-        <div class="container hero-container">
-          <div class="hero-content">
-            <div class="hero-badge reveal">
-              <span class="badge-dot"></span>
-              Open to research &amp; collaboration
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 1. HOME SECTION                         -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="hero" id="home">
+      <canvas id="particleCanvas" class="hero-canvas"></canvas>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge reveal">
+            <span class="badge-dot"></span>
+            Open to research & collaboration
+          </div>
+          <h1 class="hero-title reveal">
+            Hi, I'm <span class="highlight">Abdullah Al Jehan</span>
+          </h1>
+
+          <div class="hero-subtitle-container reveal">
+            <span class="hero-animated-subtitle" id="heroAnimatedSubtitle"
+              >Engineering Aspirant · Systems & Embedded</span
+            >
+            <span class="typewriter-cursor">|</span>
+          </div>
+
+          <p class="hero-description reveal">
+            Ambitious science student with a strong foundation in mathematics
+            and physics, gearing up for an engineering career. Exploring
+            Embedded Systems, IoT, C programming, and Linux.
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#projects" class="btn btn-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+              View Projects
+            </a>
+
+            <!-- RESUME BUTTON (Matches Navbar Icon) -->
+            <a href="assets/resume.pdf" target="_blank" class="btn btn-outline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+              </svg>
+              Resume
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              Get in Touch
+            </a>
+          </div>
+          <div class="hero-socials reveal">
+            <a
+              href="https://github.com/abdullahaljehan-me"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              aria-label="GitHub"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abdullah-al-jehan"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://facebook.com/abdullah.al.jehan.zim"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              aria-label="Facebook"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a
+              href="https://instagram.com/abdullahaljehan.me"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              title="Instagram"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"
+                />
+              </svg>
+            </a>
+
+            <!-- Discord -->
+            <a
+              href="https://discord.com/users/1007330418598625281"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              title="Discord"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"
+                />
+              </svg>
+            </a>
+
+            <!-- WhatsApp -->
+            <a
+              href="https://wa.link/26liq0"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              title="WhatsApp"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.199-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.506-.669-.514-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image reveal">
+          <div class="hero-image-wrapper card-surface lift">
+            <img
+              src="assets/profile.jpg"
+              alt="Abdullah Al Jehan — Embedded Systems Developer"
+              width="400"
+              height="400"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 2. ABOUT SECTION                        -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Personal Profile</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-card card-surface lift reveal">
+          <p class="about-paragraph">
+            Hi, I’m <strong>Jehan</strong>! I’m an ambitious science student
+            with a rock-solid foundation in mathematics and physics, currently
+            gearing up for a career in engineering. I’m passionate about
+            bridging the gap between theory and practice, with a deep dive into
+            Embedded systems, IoT, and Programming.
+          </p>
+          <p class="about-paragraph">
+            I believe the best engineering happens where code meets the physical
+            world. My approach is highly analytical, fueled by a strong
+            background in mathematics and physics, and grounded in a
+            <em>"learn by doing"</em> philosophy—building, breaking, and
+            iterating until the system is robust. Currently, I’m proud to be a
+            Founding Advisor at <strong>Kynatium Labs</strong>, where we’re on a
+            mission to make technology fundamentals and embedded systems
+            education accessible to students across Bangladesh.
+          </p>
+          <p class="about-paragraph">
+            My long-term vision is to contribute to cutting-edge research in
+            smart systems and robotics, pursue graduate studies abroad, and
+            secure engineering roles at top-tier tech innovators. I approach
+            every project with a
+            <strong>"build, break, and iterate"</strong> mindset.
+          </p>
+          <p class="about-paragraph highlight-quote">
+            I am always open to connecting with researchers, engineers, and
+            fellow builders working on embedded systems, IoT, and
+            hardware-software integration. Let’s build something impactful!
+          </p>
+          <div class="about-meta-info">
+            <div class="meta-tag">
+              <span class="meta-dot"></span> Science Student & Aspiring Engineer
             </div>
-            <h1 class="hero-title reveal">Abdullah Al Jehan</h1>
-            <p class="hero-subtitle reveal">EEE Undergraduate @ AUST</p>
-            <p class="hero-tags reveal">
-              Founding Advisor @ Kynatium Labs &middot; Embedded Systems &amp; IoT &middot; VLSI &amp;
-              Semiconductor &middot; Robotics &middot; Dhaka, Bangladesh
-            </p>
-            <div class="hero-cta reveal">
-              <a href="#projects" class="btn btn-accent">View Projects</a>
-              <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
-                Resume
+            <div class="meta-tag">
+              <span class="meta-dot"></span> Founding Advisor @ Kynatium Labs
+            </div>
+            <div class="meta-tag">
+              <span class="meta-dot"></span> Dhaka, Bangladesh
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 3. SKILLS SECTION                       -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills & Learning Focus</h2>
+          <p class="section-subtitle">
+            Accurate proficiency breakdown arranged from highest to current
+            progression level.
+          </p>
+        </div>
+
+        <div class="learning-board-banner card-surface lift reveal">
+          <div class="lb-header">
+            <span class="lb-pulse"></span>
+            <h3>Current Focus & Areas of Interest</h3>
+          </div>
+          <div class="lb-grid">
+            <div class="lb-item">
+              <span class="lb-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polygon
+                    points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                  ></polygon>
+                </svg>
+              </span>
+              <div>
+                <strong>Currently Learning</strong>
+                <p>
+                  C++ fundamentals · Linux administration · Embedded concepts ·
+                  Object-Oriented Programming (OOP)
+                </p>
+              </div>
+            </div>
+            <div class="lb-item">
+              <span class="lb-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </span>
+              <div>
+                <strong>Key Interests</strong>
+                <p>
+                  Artificial Intelligence (AI) · Machine Learning · Robotics ·
+                  Automotive Engineering
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-progress-grid">
+          <div class="skill-category-card card-surface lift reveal">
+            <h3 class="category-card-title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+              Languages & Web
+            </h3>
+            <div class="progress-item">
+              <div class="progress-info">
+                <span class="skill-name"
+                  >C Language (Fundamentals & Files)</span
+                >
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-info">
+                <span class="skill-name">HTML5 & CSS3</span>
+                <span class="skill-percentage">65%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 65%"></div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-info">
+                <span class="skill-name">C++ Fundamentals</span>
+                <span class="skill-percentage">25%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 25%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card card-surface lift reveal">
+            <h3 class="category-card-title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+              Systems & Tools
+            </h3>
+            <div class="progress-item">
+              <div class="progress-info">
+                <span class="skill-name">Git, GitHub & VS Code</span>
+                <span class="skill-percentage">65%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 65%"></div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-info">
+                <span class="skill-name">Linux (Debian/Ubuntu)</span>
+                <span class="skill-percentage">55%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 55%"></div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-info">
+                <span class="skill-name">Bash & Shell Scripting</span>
+                <span class="skill-percentage">45%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 45%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card card-surface lift reveal">
+            <h3 class="category-card-title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+              Embedded & IoT
+            </h3>
+            <div class="progress-item">
+              <div class="progress-info">
+                <span class="skill-name">Arduino & Microcontroller Basics</span>
+                <span class="skill-percentage">45%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 45%"></div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-info">
+                <span class="skill-name">Sensor Integration</span>
+                <span class="skill-percentage">25%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 25%"></div>
+              </div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-info">
+                <span class="skill-name">Hardware-Software Integration</span>
+                <span class="skill-percentage">25%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 25%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 4. EDUCATION SECTION (TIMELINE LAYOUT)  -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Academic Foundation</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">
+            Academic degrees and schooling background arranged chronologically.
+          </p>
+        </div>
+
+        <div class="timeline single-column-timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker education-marker"></div>
+            <div class="timeline-content card-surface lift">
+              <div class="timeline-header-row">
+                <h3 class="timeline-title">
+                  Higher Secondary Certificate (HSC)
+                </h3>
+                <span class="timeline-date">Oct 2023 — Jun 2025</span>
+              </div>
+              <p class="timeline-company">
+                Government Science College · Dhaka, Bangladesh
+              </p>
+              <div class="education-timeline-meta">
+                <span class="edu-badge">Science Stream</span>
+                <span class="edu-gpa">GPA 5.00 / 5.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker education-marker"></div>
+            <div class="timeline-content card-surface lift">
+              <div class="timeline-header-row">
+                <h3 class="timeline-title">
+                  Secondary School Certificate (SSC)
+                </h3>
+                <span class="timeline-date">Jan 2021 — May 2023</span>
+              </div>
+              <p class="timeline-company">
+                President Professor Dr. Iajuddin Ahmed Residential Model School
+                & College
+              </p>
+              <div class="education-timeline-meta">
+                <span class="edu-badge">Science Stream</span>
+                <span class="edu-gpa">GPA 5.00 / 5.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 5. EXPERIENCE SECTION                   -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Track Record</span>
+          <h2 class="section-title">Leadership & Work Experience</h2>
+          <p class="section-subtitle">
+            Advisory roles and hands-on organizational contributions.
+          </p>
+        </div>
+
+        <div class="timeline single-column-timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content card-surface lift">
+              <div class="timeline-header-row">
+                <h3 class="timeline-title">Founding Advisor</h3>
+                <span class="timeline-date">Jan 2026 — Present</span>
+              </div>
+              <p class="timeline-company">Kynatium Labs · Dhaka, Bangladesh</p>
+              <ul class="timeline-details">
+                <li>
+                  Advised the founding team on strategic direction, technical
+                  roadmap, and early-stage decision-making.
+                </li>
+                <li>
+                  Reviewed technical content and embedded-systems concepts for
+                  clarity, accuracy, and feasibility.
+                </li>
+                <li>
+                  Directed beginner-focused outreach strategy and social-media
+                  positioning to expand access to technology education in
+                  Bangladesh.
+                </li>
+                <li>
+                  Supported curriculum direction, community building, and
+                  long-term growth initiatives.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 6. FEATURED PROJECTS SECTION            -->
+    <!-- ═══════════════════════════════════════ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Software & Hardware Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Featured repositories and engineering prototypes.
+          </p>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project 1 -->
+          <article class="card-surface lift project-card reveal">
+            <div class="card-thumbnail-box">
+              <img
+                src="https://opengraph.githubassets.com/1/abdullahaljehan-me/contact-management-system-c"
+                alt="Contact Management System"
+                class="card-banner-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-header">
+                <h3 class="project-title">Contact Management System</h3>
+              </div>
+              <p class="project-description">
+                CLI application written in C managing contact records via binary
+                file I/O operations, featuring record insertion, search, and
+                persistent storage.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">C</span>
+                <span class="tech-tag">Binary File I/O</span>
+                <span class="tech-tag">CLI</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  class="btn btn-outline btn-sm breakdown-btn"
+                  data-project="contact-management"
+                >
+                  Technical Breakdown
+                </button>
+                <a
+                  href="https://github.com/abdullahaljehan-me/contact-management-system-c"
+                  target="_blank"
+                  class="btn btn-primary btn-sm project-repo-btn"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+                  Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card-surface lift project-card reveal">
+            <div class="card-thumbnail-box">
+              <img
+                src="https://opengraph.githubassets.com/1/Kynatium-Labs/workshop_obstracle_avoiding_robot"
+                alt="Obstacle Avoiding Robot"
+                class="card-banner-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-header">
+                <h3 class="project-title">Obstacle Avoiding Robot</h3>
+              </div>
+              <p class="project-description">
+                Autonomous robot firmware utilizing HC-SR04 ultrasonic sensors
+                and L298N motor driver logic for real-time obstacle avoidance
+                and navigation.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">C++ / Arduino</span>
+                <span class="tech-tag">Ultrasonic</span>
+                <span class="tech-tag">Motor Driver</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  class="btn btn-outline btn-sm breakdown-btn"
+                  data-project="obstacle-robot"
+                >
+                  Technical Breakdown
+                </button>
+                <a
+                  href="https://github.com/Kynatium-Labs/workshop_obstracle_avoiding_robot"
+                  target="_blank"
+                  class="btn btn-primary btn-sm project-repo-btn"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+                  Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card-surface lift project-card reveal">
+            <div class="card-thumbnail-box">
+              <img
+                src="https://opengraph.githubassets.com/1/abdullahaljehan-me/portfolio"
+                alt="Personal Portfolio Site"
+                class="card-banner-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-header">
+                <h3 class="project-title">Personal Portfolio Site</h3>
+              </div>
+              <p class="project-description">
+                Clean portfolio site featuring OKLCH color design system,
+                interactive CLI drawer, and smooth responsive layout.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">OKLCH CSS</span>
+                <span class="tech-tag">JS</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  class="btn btn-outline btn-sm breakdown-btn"
+                  data-project="portfolio-site"
+                >
+                  Technical Breakdown
+                </button>
+                <a
+                  href="https://github.com/abdullahaljehan-me/portfolio"
+                  target="_blank"
+                  class="btn btn-primary btn-sm project-repo-btn"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+                  Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 (hidden) -->
+          <article class="card-surface lift project-card hidden-card">
+            <div class="card-thumbnail-box">
+              <img
+                src="https://opengraph.githubassets.com/1/abdullahaljehan-me/digital-clock-c"
+                alt="Digital Clock CLI Suite"
+                class="card-banner-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-header">
+                <h3 class="project-title">Digital Clock CLI Suite</h3>
+              </div>
+              <p class="project-description">
+                Comprehensive, flicker-free CLI time suite in pure C. Features a
+                real-time clock, drift-free stopwatch, and alarm system using
+                native OS APIs with zero external dependencies.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">C</span>
+                <span class="tech-tag">CLI</span>
+                <span class="tech-tag">Real-time</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  class="btn btn-outline btn-sm breakdown-btn"
+                  data-project="digital-clock"
+                >
+                  Technical Breakdown
+                </button>
+                <a
+                  href="https://github.com/abdullahaljehan-me/digital-clock-c"
+                  target="_blank"
+                  class="btn btn-primary btn-sm project-repo-btn"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+                  Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 (hidden) -->
+          <article class="card-surface lift project-card hidden-card">
+            <div class="card-thumbnail-box">
+              <img
+                src="https://opengraph.githubassets.com/1/abdullahaljehan-me/calendar-c"
+                alt="Calendar Utility in C"
+                class="card-banner-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-header">
+                <h3 class="project-title">Calendar Utility (C)</h3>
+              </div>
+              <p class="project-description">
+                Lightweight, dependency-free calendar tool in C. Generates
+                monthly and yearly calendars, detects leap years, and calculates
+                the day of the week for any Gregorian date.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">C</span>
+                <span class="tech-tag">CLI</span>
+                <span class="tech-tag">Algorithms</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  class="btn btn-outline btn-sm breakdown-btn"
+                  data-project="calendar-c"
+                >
+                  Technical Breakdown
+                </button>
+                <a
+                  href="https://github.com/abdullahaljehan-me/calendar-c"
+                  target="_blank"
+                  class="btn btn-primary btn-sm project-repo-btn"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+                  Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 (hidden) -->
+          <article class="card-surface lift project-card hidden-card">
+            <div class="card-thumbnail-box">
+              <img
+                src="https://opengraph.githubassets.com/1/abdullahaljehan-me/c-projects"
+                alt="C Projects Roadmap"
+                class="card-banner-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-header">
+                <h3 class="project-title">C Projects Roadmap</h3>
+              </div>
+              <p class="project-description">
+                Centralized index and learning roadmap of C programming
+                projects. Covers algorithms, memory management, POSIX internals,
+                and systems programming fundamentals for embedded development.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">C</span>
+                <span class="tech-tag">Systems</span>
+                <span class="tech-tag">Learning</span>
+              </div>
+              <div class="project-actions">
+                <!-- ADDED TECHNICAL BREAKDOWN BUTTON HERE -->
+                <button
+                  class="btn btn-outline btn-sm breakdown-btn"
+                  data-project="c-projects-roadmap"
+                >
+                  Technical Breakdown
+                </button>
+                <a
+                  href="https://github.com/abdullahaljehan-me/c-projects"
+                  target="_blank"
+                  class="btn btn-primary btn-sm project-repo-btn"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                    />
+                  </svg>
+                  Repository
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div style="text-align: center">
+          <button
+            class="btn btn-outline btn-sm view-all-btn"
+            data-target="projects-grid"
+            data-expand-text="View all projects"
+            data-collapse-text="Show fewer projects"
+          >
+            View all projects <span class="arrow">↓</span>
+          </button>
+        </div>
+
+        <div class="github-action-banner reveal">
+          <a
+            href="https://github.com/abdullahaljehan-me?tab=repositories"
+            target="_blank"
+            class="btn btn-outline btn-lg"
+          >
+            Explore All Repositories on GitHub
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+              ></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 7. RESEARCH & PUBLICATIONS              -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="section research" id="research">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Academic Pursuits</span>
+          <h2 class="section-title">Research & Publications</h2>
+          <p class="section-subtitle">
+            Future research initiatives and academic paper drafts.
+          </p>
+        </div>
+
+        <div class="research-grid" id="research-grid">
+          <!-- Card 1 (Visible) -->
+          <article class="research-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                  ></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span>Research Media Thumbnail</span>
+              </div>
+            </div>
+            <div class="research-card-body">
+              <span class="research-badge">Draft</span>
+              <h3 class="research-title">DEMO TITLE 1</h3>
+              <p class="research-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                nostrum fugiat amet nemo fugit doloremque sequi aperiam officiis
+                non iusto. Delectus reiciendis nulla quisquam aspernatur
+                quibusdam. Amet doloribus ipsam quae.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 2 (Visible) -->
+          <article class="research-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                  ></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span>Research Media Thumbnail</span>
+              </div>
+            </div>
+            <div class="research-card-body">
+              <span class="research-badge">DRAFT</span>
+              <h3 class="research-title">DEMO TITLE 2</h3>
+              <p class="research-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                nostrum fugiat amet nemo fugit doloremque sequi aperiam officiis
+                non iusto. Delectus reiciendis nulla quisquam aspernatur
+                quibusdam. Amet doloribus ipsam quae.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 3 (Visible) -->
+          <article class="research-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                  ></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span>Research Media Thumbnail</span>
+              </div>
+            </div>
+            <div class="research-card-body">
+              <span class="research-badge">DRAFT</span>
+              <h3 class="research-title">DEMO TITLE 3</h3>
+              <p class="research-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                nostrum fugiat amet nemo fugit doloremque sequi aperiam officiis
+                non iusto. Delectus reiciendis nulla quisquam aspernatur
+                quibusdam. Amet doloribus ipsam quae.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 4 (Hidden) -->
+          <article class="research-card card-surface lift hidden-card">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder"><span>Coming Soon</span></div>
+            </div>
+            <div class="research-card-body">
+              <span class="research-badge">Planned</span>
+              <h3 class="research-title">Draft Research Title 04</h3>
+              <p class="research-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                necessitatibus non provident nisi voluptates, amet doloremque.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 5 (Hidden) -->
+          <article class="research-card card-surface lift hidden-card">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder"><span>Coming Soon</span></div>
+            </div>
+            <div class="research-card-body">
+              <span class="research-badge">Planned</span>
+              <h3 class="research-title">Draft Research Title 05</h3>
+              <p class="research-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                necessitatibus non provident nisi voluptates, amet doloremque.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center">
+          <button
+            class="btn btn-outline btn-sm view-all-btn"
+            data-target="research-grid"
+            data-expand-text="View all publications"
+            data-collapse-text="Show fewer publications"
+          >
+            View all publications <span class="arrow">↓</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 8. BLOGS & ARTICLES                     -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="section blogs" id="blogs">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Technical Notes</span>
+          <h2 class="section-title">Blogs & Articles</h2>
+          <p class="section-subtitle">
+            Articles and reflections published on social channels.
+          </p>
+        </div>
+
+        <div class="blogs-grid" id="blogs-grid">
+          <!-- Card 1 (Visible) -->
+          <article class="blog-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <img
+                src="assets/blogs/linkedin_linux_kubuntu.png"
+                alt="Leveling Up My Linux Journey Thumbnail"
+                class="card-banner-img"
+              />
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-header">
+                <span class="blog-platform-tag">LinkedIn</span>
+                <time class="blog-date" datetime="2025-01-15"
+                  >Jan 15, 2025</time
+                >
+              </div>
+              <h3 class="blog-title">
+                Leveling Up My Linux Journey: From Zorin OS to Kubuntu
+              </h3>
+              <div class="project-tech" style="margin-bottom: 12px">
+                <span class="tech-tag">Linux</span
+                ><span class="tech-tag">Kubuntu</span>
+              </div>
+              <p class="blog-excerpt">
+                My journey from Zorin OS 18 to Kubuntu 26.04 LTS, exploring KDE
+                Plasma, Wayland, Zsh, and Ghostty to build a faster,
+                developer-focused Linux workflow.
+              </p>
+              <a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7462517434445377537/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="blog-read-link"
+                >Read on LinkedIn <span>→</span></a
+              >
+            </div>
+          </article>
+
+          <!-- Card 2 (Visible) -->
+          <article class="blog-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <img
+                src="assets/blogs/linkedin_linux_zorinos.jpg"
+                alt="From Windows to Linux Thumbnail"
+                class="card-banner-img"
+              />
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-header">
+                <span class="blog-platform-tag">LinkedIn</span>
+                <time class="blog-date" datetime="2024-11-20"
+                  >Nov 20, 2024</time
+                >
+              </div>
+              <h3 class="blog-title">
+                From Windows to Linux: My First Steps with Zorin OS 18
+              </h3>
+              <div class="project-tech" style="margin-bottom: 12px">
+                <span class="tech-tag">Linux</span
+                ><span class="tech-tag">Zorin OS</span>
+              </div>
+              <p class="blog-excerpt">
+                My first hands-on Linux journey with Zorin OS 18, exploring
+                package management, system structure, and workflow differences
+                from Windows.
+              </p>
+              <a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7408962979909558273/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="blog-read-link"
+                >Read on LinkedIn <span>→</span></a
+              >
+            </div>
+          </article>
+
+          <!-- Card 3 (Visible) -->
+          <article class="blog-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder">
+                <span>Article Thumbnail</span>
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-header">
+                <span class="blog-platform-tag">LinkedIn</span>
+                <time class="blog-date" datetime="2024-09-10"
+                  >Sep 10, 2024</time
+                >
+              </div>
+              <h3 class="blog-title">DEMO TITLE 3</h3>
+              <div class="project-tech" style="margin-bottom: 12px">
+                <span class="tech-tag">D</span
+                ><span class="tech-tag">DEMO</span>
+              </div>
+              <p class="blog-excerpt">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                nostrum fugiat amet nemo fugit doloremque sequi aperiam officiis
+                non iusto. Delectus reiciendis nulla quisquam aspernatur
+                quibusdam. Amet doloribus ipsam quae.
+              </p>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="blog-read-link"
+                >Read on LinkedIn <span>→</span></a
+              >
+            </div>
+          </article>
+
+          <!-- Card 4 (Hidden) -->
+          <article class="blog-card card-surface lift hidden-card">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder"><span>Coming Soon</span></div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-header">
+                <span class="blog-platform-tag">Draft</span
+                ><time class="blog-date">TBD</time>
+              </div>
+              <h3 class="blog-title">Draft Blog Title 04</h3>
+              <p class="blog-excerpt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                necessitatibus non provident nisi voluptates.
+              </p>
+              <a href="#" class="blog-read-link">Read More <span>→</span></a>
+            </div>
+          </article>
+
+          <!-- Card 5 (Hidden) -->
+          <article class="blog-card card-surface lift hidden-card">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder"><span>Coming Soon</span></div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-header">
+                <span class="blog-platform-tag">Draft</span
+                ><time class="blog-date">TBD</time>
+              </div>
+              <h3 class="blog-title">Draft Blog Title 05</h3>
+              <p class="blog-excerpt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                necessitatibus non provident nisi voluptates.
+              </p>
+              <a href="#" class="blog-read-link">Read More <span>→</span></a>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center">
+          <button
+            class="btn btn-outline btn-sm view-all-btn"
+            data-target="blogs-grid"
+            data-expand-text="Read more articles"
+            data-collapse-text="Show fewer articles"
+          >
+            Read more articles <span class="arrow">↓</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 9. COURSES & CERTIFICATIONS             -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="section certifications" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Professional Growth</span>
+          <h2 class="section-title">Courses & Certifications</h2>
+          <p class="section-subtitle">
+            Upcoming and in-progress certifications.
+          </p>
+        </div>
+
+        <div class="cert-grid" id="cert-grid">
+          <!-- Card 1 (Visible) -->
+          <article class="cert-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder">
+                <span>Certificate Thumbnail</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-badge">Upcoming</span>
+              <h3 class="cert-title">DEMO TITLE 1</h3>
+              <p class="cert-org">DEMO ORG</p>
+              <span class="cert-status">In Progress / Planned</span>
+            </div>
+          </article>
+
+          <!-- Card 2 (Visible) -->
+          <article class="cert-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder">
+                <span>Certificate Thumbnail</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-badge">Upcoming</span>
+              <h3 class="cert-title">DEMO TITLE 2</h3>
+              <p class="cert-org">DEMO ORG</p>
+              <span class="cert-status">In Progress / Planned</span>
+            </div>
+          </article>
+
+          <!-- Card 3 (Visible) -->
+          <article class="cert-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder">
+                <span>Certificate Thumbnail</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-badge">Upcoming</span>
+              <h3 class="cert-title">DEMO TITLE 3</h3>
+              <p class="cert-org">DEMO ORG</p>
+              <span class="cert-status">In Progress / Planned</span>
+            </div>
+          </article>
+
+          <!-- Card 4 (Hidden) -->
+          <article class="cert-card card-surface lift hidden-card">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder"><span>Coming Soon</span></div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-badge">Planned</span>
+              <h3 class="cert-title">DEMO TITLE 4</h3>
+              <p class="cert-org">DEMO ORG</p>
+              <span class="cert-status">Planned for 2026</span>
+            </div>
+          </article>
+
+          <!-- Card 5 (Hidden) -->
+          <article class="cert-card card-surface lift hidden-card">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder"><span>Coming Soon</span></div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-badge">Planned</span>
+              <h3 class="cert-title">DEMO TITLE 5</h3>
+              <p class="cert-org">DEMO ORG</p>
+              <span class="cert-status">Planned for 2026</span>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center">
+          <button
+            class="btn btn-outline btn-sm view-all-btn"
+            data-target="cert-grid"
+            data-expand-text="View all certifications"
+            data-collapse-text="Show fewer certifications"
+          >
+            View all certifications <span class="arrow">↓</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 10. HONORS & ACHIEVEMENTS               -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="section honors" id="honors">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Recognition</span>
+          <h2 class="section-title">Honors & Achievements</h2>
+          <p class="section-subtitle">Academic accolades and distinctions.</p>
+        </div>
+
+        <div class="honors-grid" id="honors-grid">
+          <!-- Card 1 (Visible) -->
+          <article class="honor-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <img
+                src="./assets/honors/honors_prothom_alo_certificate.jpeg"
+                alt="HSC GPA-5 Reception Certificate"
+                class="card-banner-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="honor-body">
+              <span class="honor-tag">Academic Excellence</span>
+              <h3 class="honor-title">
+                Presidency University–Prothom Alo HSC GPA-5 Reception 2025
+              </h3>
+              <p class="honor-desc">
+                Recognized for outstanding academic achievement after earning a
+                perfect GPA 5.00 in the HSC examinations.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 2 (Visible) -->
+          <article class="honor-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder">
+                <span>Award Thumbnail</span>
+              </div>
+            </div>
+            <div class="honor-body">
+              <span class="honor-tag">Academic Excellence</span>
+              <h3 class="honor-title">DEMO Title 2</h3>
+              <p class="honor-desc">DEMO Description 2</p>
+            </div>
+          </article>
+
+          <!-- Card 3 (Visible) -->
+          <article class="honor-card card-surface lift reveal">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder">
+                <span>Award Thumbnail</span>
+              </div>
+            </div>
+            <div class="honor-body">
+              <span class="honor-tag">Competition</span>
+              <h3 class="honor-title">DEMO Title 3</h3>
+              <p class="honor-desc">DEMO Description 3</p>
+            </div>
+          </article>
+
+          <!-- Card 4 (Hidden) -->
+          <article class="honor-card card-surface lift hidden-card">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder"><span>Coming Soon</span></div>
+            </div>
+            <div class="honor-body">
+              <span class="honor-tag">Draft</span>
+              <h3 class="honor-title">Draft Honor Title 04</h3>
+              <p class="honor-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+                architecto amet excepturi delectus officia.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 5 (Hidden) -->
+          <article class="honor-card card-surface lift hidden-card">
+            <div class="card-thumbnail-box">
+              <div class="thumbnail-placeholder"><span>Coming Soon</span></div>
+            </div>
+            <div class="honor-body">
+              <span class="honor-tag">Draft</span>
+              <h3 class="honor-title">Draft Honor Title 05</h3>
+              <p class="honor-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+                architecto amet excepturi delectus officia.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center">
+          <button
+            class="btn btn-outline btn-sm view-all-btn"
+            data-target="honors-grid"
+            data-expand-text="View all achievements"
+            data-collapse-text="Show fewer achievements"
+          >
+            View all achievements <span class="arrow">↓</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- 11. CONTACT SECTION                     -->
+    <!-- ═══════════════════════════════════════ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">
+            Open to research collaborations, open-source project contributions,
+            and technical opportunities.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info card-surface lift reveal">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <p class="contact-label">Email</p>
+                <a
+                  href="mailto:abdullahaljehan.me@gmail.com"
+                  class="contact-value"
+                  id="emailLink"
+                  title="Click to copy email"
+                  >abdullahaljehan.me@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <p class="contact-label">Location</p>
+                <p class="contact-value">Dhaka, Bangladesh</p>
+              </div>
+            </div>
+
+            <div class="contact-resume-block">
+              <p class="contact-label">Curriculum Vitae</p>
+              <a
+                href="assets/resume.pdf"
+                target="_blank"
+                class="btn btn-outline btn-sm"
+                id="contactResumeBtn"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                  />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                </svg>
+                View / Download Resume (PDF)
               </a>
             </div>
-            <div class="hero-socials reveal">
+
+            <div class="contact-socials">
               <a
                 href="https://github.com/abdullahaljehan-me"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="social-link"
+                class="contact-social-link"
                 aria-label="GitHub"
               >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
                   <path
                     d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
                   />
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/in/abdullahaljehan-me/"
+                href="https://www.linkedin.com/in/abdullah-al-jehan"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="social-link"
+                class="contact-social-link"
                 aria-label="LinkedIn"
               >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
                   <path
                     d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
                   />
@@ -207,49 +1897,78 @@
                 href="https://facebook.com/abdullah.al.jehan.zim"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="social-link"
+                class="contact-social-link"
                 aria-label="Facebook"
               >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
                   <path
                     d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
                   />
                 </svg>
               </a>
+              <!-- Instagram -->
               <a
                 href="https://instagram.com/abdullahaljehan.me"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="social-link"
-                aria-label="Instagram"
+                class="contact-social-link"
+                title="Instagram"
               >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
                   <path
                     d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"
                   />
                 </svg>
               </a>
+
+              <!-- Discord -->
               <a
                 href="https://discord.com/users/1007330418598625281"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="social-link"
-                aria-label="Discord"
+                class="contact-social-link"
+                title="Discord"
               >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
                   <path
                     d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"
                   />
                 </svg>
               </a>
+
+              <!-- WhatsApp -->
               <a
                 href="https://wa.link/26liq0"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="social-link"
-                aria-label="WhatsApp"
+                class="contact-social-link"
+                title="WhatsApp"
               >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
                   <path
                     d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.199-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.506-.669-.514-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
                   />
@@ -257,903 +1976,398 @@
               </a>
             </div>
           </div>
-          <div class="hero-image reveal">
-            <div class="hero-image-wrapper">
-              <img
-                src="assets/profile.jpg"
-                alt="Abdullah Al Jehan"
-                width="360"
-                height="360"
-                loading="eager"
+
+          <form
+            class="contact-form card-surface lift reveal"
+            id="contactForm"
+            action="https://formsubmit.co/abdullahaljehan.me@gmail.com"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Portfolio Collaboration Message"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input"
+                placeholder="Your name"
+                required
               />
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ═══════════════════════════════════════ -->
-      <!-- 2. ABOUT SECTION (60/40 LAYOUT)        -->
-      <!-- ═══════════════════════════════════════ -->
-      <section class="section about" id="about">
-        <div class="container">
-          <div class="section-header reveal">
-            <span class="section-label">Background &amp; Expertise</span>
-            <h2 class="section-title">About Me</h2>
-          </div>
-          <div class="about-grid">
-            <!-- Left column: Bio + Education (60%) -->
-            <div class="about-main reveal">
-              <div class="about-bio">
-                <p>
-                  I'm Jehan, an Electrical &amp; Electronic Engineering undergraduate at Ahsanullah
-                  University of Science and Technology (AUST), Dhaka. My interests include embedded
-                  systems, robotics, electronics and circuit design, and VLSI and semiconductor
-                  technology.
-                </p>
-                <p>
-                  I'm a Founding Advisor at Kynatium Labs, contributing to strategy and educational
-                  initiatives focused on technology fundamentals and embedded systems education in
-                  Bangladesh.
-                </p>
-                <p>
-                  My long-term interests include engineering R&amp;D, graduate studies and work
-                  connecting research with industry.
-                </p>
-              </div>
-
-              <!-- Education Timeline -->
-              <div class="about-education">
-                <h3 class="subsection-title">Education</h3>
-                <div class="education-timeline">
-                  <div class="edu-item">
-                    <div class="edu-dot"></div>
-                    <div class="edu-content">
-                      <div class="edu-header">
-                        <h4 class="edu-degree">B.Sc. Electrical &amp; Electronic Engineering</h4>
-                        <span class="edu-meta">Dec 2026 – Present</span>
-                      </div>
-                      <p class="edu-school">
-                        Ahsanullah University of Science and Technology (AUST), Dhaka
-                      </p>
-                      <span class="edu-badge">4-year program</span>
-                    </div>
-                  </div>
-
-                  <div class="edu-item">
-                    <div class="edu-dot"></div>
-                    <div class="edu-content">
-                      <div class="edu-header">
-                        <h4 class="edu-degree">HSC — Science</h4>
-                        <span class="edu-meta">Oct 2023 – Jun 2025</span>
-                      </div>
-                      <p class="edu-school">Government Science College, Dhaka</p>
-                      <span class="edu-badge">GPA 5.00 / 5.00</span>
-                    </div>
-                  </div>
-
-                  <div class="edu-item">
-                    <div class="edu-dot"></div>
-                    <div class="edu-content">
-                      <div class="edu-header">
-                        <h4 class="edu-degree">SSC — Science</h4>
-                        <span class="edu-meta">Jan 2021 – May 2023</span>
-                      </div>
-                      <p class="edu-school">
-                        President Professor Dr. Iajuddin Ahmed Residential Model School &amp; College
-                      </p>
-                      <span class="edu-badge">GPA 5.00 / 5.00</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input"
+                placeholder="your@email.com"
+                required
+              />
             </div>
-
-            <!-- Right column: Grouped Skills & Interests (40%) -->
-            <div class="about-aside reveal">
-              <div class="skills-block">
-                <h3 class="subsection-title">Technical Competencies</h3>
-
-                <div class="skill-group">
-                  <h4 class="skill-group-title">Web</h4>
-                  <div class="skill-pills">
-                    <span class="skill-pill">HTML</span>
-                    <span class="skill-pill">CSS</span>
-                  </div>
-                </div>
-
-                <div class="skill-group">
-                  <h4 class="skill-group-title">Systems</h4>
-                  <div class="skill-pills">
-                    <span class="skill-pill">Linux</span>
-                    <span class="skill-pill">Shell / Bash</span>
-                    <span class="skill-pill">Git</span>
-                    <span class="skill-pill">GitHub</span>
-                    <span class="skill-pill">VS Code</span>
-                  </div>
-                </div>
-
-                <div class="skill-group">
-                  <h4 class="skill-group-title">Embedded</h4>
-                  <div class="skill-pills">
-                    <span class="skill-pill">Arduino</span>
-                    <span class="skill-pill">Microcontrollers</span>
-                    <span class="skill-pill">Sensor Integration</span>
-                    <span class="skill-pill">Hardware–Software Integration</span>
-                  </div>
-                </div>
-
-                <div class="skill-group">
-                  <h4 class="skill-group-title">Foundations</h4>
-                  <div class="skill-pills">
-                    <span class="skill-pill">Mathematics</span>
-                    <span class="skill-pill">Physics</span>
-                    <span class="skill-pill">Circuit Fundamentals</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="interests-block">
-                <h3 class="subsection-title">Core Interests</h3>
-                <div class="interest-pills">
-                  <span class="interest-pill">Embedded Systems</span>
-                  <span class="interest-pill">Robotics</span>
-                  <span class="interest-pill">Electronics &amp; Circuit Design</span>
-                  <span class="interest-pill">VLSI &amp; Semiconductors</span>
-                </div>
-              </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-input form-textarea"
+                placeholder="Write your message..."
+                rows="5"
+                required
+              ></textarea>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ═══════════════════════════════════════ -->
-      <!-- 3. EXPERIENCE SECTION                   -->
-      <!-- ═══════════════════════════════════════ -->
-      <section class="section experience" id="experience">
-        <div class="container">
-          <div class="section-header reveal">
-            <span class="section-label">Track Record</span>
-            <h2 class="section-title">Leadership &amp; Advisory</h2>
-          </div>
-          <div class="timeline single-column-timeline">
-            <div class="timeline-item reveal">
-              <div class="timeline-dot"></div>
-              <div class="timeline-content">
-                <div class="timeline-header-row">
-                  <div class="timeline-title-wrap">
-                    <h3 class="timeline-role">Founding Advisor</h3>
-                    <span class="badge badge-advisory">Advisory</span>
-                  </div>
-                  <span class="timeline-date">Jan 2026 – Present</span>
-                </div>
-                <p class="timeline-org">Kynatium Labs &middot; Dhaka, Bangladesh</p>
-                <ul class="timeline-details">
-                  <li>Advised the founding team on strategic direction, technical roadmap, and early-stage decision-making.</li>
-                  <li>Reviewed technical content and embedded-systems concepts for clarity, accuracy, and feasibility.</li>
-                  <li>Directed beginner-focused outreach strategy and social-media positioning to expand access to technology education in Bangladesh.</li>
-                  <li>Supported curriculum direction, community building, and long-term growth initiatives.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ═══════════════════════════════════════ -->
-      <!-- 4. PROJECTS SECTION                     -->
-      <!-- ═══════════════════════════════════════ -->
-      <section class="section projects" id="projects">
-        <div class="container">
-          <div class="section-header reveal">
-            <span class="section-label">Software &amp; Systems</span>
-            <h2 class="section-title">Featured Projects</h2>
-          </div>
-          <!-- Projects grid populated via shared PROJECTS constant in script.js -->
-          <div class="projects-grid" id="projectsGrid"></div>
-        </div>
-      </section>
-
-      <!-- ═══════════════════════════════════════ -->
-      <!-- 5. RESEARCH & WRITING                   -->
-      <!-- ═══════════════════════════════════════ -->
-      <section class="section research" id="research">
-        <div class="container">
-          <div class="section-header reveal">
-            <span class="section-label">Academic Pursuits</span>
-            <h2 class="section-title">Research &amp; Writing</h2>
-          </div>
-
-          <div class="research-interests-banner reveal">
-            <span class="banner-label">Research Interests:</span>
-            <span class="banner-text"
-              >VLSI &amp; semiconductor technology &middot; embedded systems &middot; robotics.</span
+            <button
+              type="submit"
+              class="btn btn-primary btn-lg btn-full"
+              id="submitBtn"
             >
-          </div>
-
-          <!-- Accessible Category Tabs -->
-          <div class="tab-wrapper" data-tab-group="research">
-            <div class="tab-list" role="tablist" aria-label="Research and Writing Filter">
-              <button
-                class="tab-btn active"
-                role="tab"
-                aria-selected="true"
-                aria-controls="research-all"
-                id="tab-research-all"
-                data-filter="all"
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               >
-                All
-              </button>
-              <button
-                class="tab-btn"
-                role="tab"
-                aria-selected="false"
-                aria-controls="research-articles"
-                id="tab-research-articles"
-                data-filter="articles"
-                tabindex="-1"
-              >
-                Articles
-              </button>
-              <button
-                class="tab-btn"
-                role="tab"
-                aria-selected="false"
-                aria-controls="research-publications"
-                id="tab-research-publications"
-                data-filter="publications"
-                tabindex="-1"
-              >
-                Publications
-              </button>
-            </div>
-
-            <div class="tab-panels">
-              <div
-                class="tab-panel active"
-                id="research-all"
-                role="tabpanel"
-                aria-labelledby="tab-research-all"
-              >
-                <div class="cards-grid">
-                  <!-- Article 1 -->
-                  <article class="data-card reveal" data-category="articles">
-                    <div class="card-thumb">
-                      <img
-                        src="assets/blogs/linkedin_linux_kubuntu.png"
-                        alt="Leveling Up My Linux Journey: From Zorin OS to Kubuntu Thumbnail"
-                        class="card-thumb-img"
-                        loading="lazy"
-                      />
-                    </div>
-                    <div class="card-body">
-                      <div class="card-meta">
-                        <span class="meta-tag">LinkedIn</span>
-                        <time class="meta-date">May 2026</time>
-                      </div>
-                      <h3 class="card-title">
-                        Leveling Up My Linux Journey: From Zorin OS to Kubuntu
-                      </h3>
-                      <div class="card-tags">
-                        <span class="tech-tag">Linux</span>
-                        <span class="tech-tag">Kubuntu</span>
-                      </div>
-                      <p class="card-desc">
-                        My journey from Zorin OS 18 to Kubuntu 26.04 LTS, exploring KDE Plasma,
-                        Wayland, Zsh, and Ghostty to build a faster, developer-focused Linux workflow.
-                      </p>
-                      <a
-                        href="https://www.linkedin.com/feed/update/urn:li:activity:7462517434445377537/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="card-action-link"
-                      >
-                        Read on LinkedIn &rarr;
-                      </a>
-                    </div>
-                  </article>
-
-                  <!-- Article 2 -->
-                  <article class="data-card reveal" data-category="articles">
-                    <div class="card-thumb">
-                      <img
-                        src="assets/blogs/linkedin_linux_zorinos.jpg"
-                        alt="From Windows to Linux: My First Steps with Zorin OS 18 Thumbnail"
-                        class="card-thumb-img"
-                        loading="lazy"
-                      />
-                    </div>
-                    <div class="card-body">
-                      <div class="card-meta">
-                        <span class="meta-tag">LinkedIn</span>
-                        <time class="meta-date">Dec 2025</time>
-                      </div>
-                      <h3 class="card-title">
-                        From Windows to Linux: My First Steps with Zorin OS 18
-                      </h3>
-                      <div class="card-tags">
-                        <span class="tech-tag">Linux</span>
-                        <span class="tech-tag">Zorin OS</span>
-                      </div>
-                      <p class="card-desc">
-                        My first hands-on Linux journey with Zorin OS 18, exploring package
-                        management, system structure, and workflow differences from Windows.
-                      </p>
-                      <a
-                        href="https://www.linkedin.com/feed/update/urn:li:activity:7408962979909558273/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="card-action-link"
-                      >
-                        Read on LinkedIn &rarr;
-                      </a>
-                    </div>
-                  </article>
-
-                  <!-- Article Placeholder 3 -->
-                  <article class="data-card reveal" data-category="articles">
-                    <div class="card-thumb placeholder-thumb">
-                      <span>Article Thumbnail</span>
-                    </div>
-                    <div class="card-body">
-                      <div class="card-meta">
-                        <span class="meta-tag">LinkedIn</span>
-                        <time class="meta-date">Sep 2024</time>
-                      </div>
-                      <h3 class="card-title">DEMO TITLE 3</h3>
-                      <div class="card-tags">
-                        <span class="tech-tag">DEMO</span>
-                      </div>
-                      <p class="card-desc">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nostrum fugiat
-                        amet nemo fugit doloremque sequi aperiam officiis non iusto.
-                      </p>
-                      <a href="#" class="card-action-link">Read on LinkedIn &rarr;</a>
-                    </div>
-                  </article>
-
-                  <!-- Publication Placeholders -->
-                  <article class="data-card reveal" data-category="publications">
-                    <div class="card-thumb placeholder-thumb">
-                      <span>Research Media Thumbnail</span>
-                    </div>
-                    <div class="card-body">
-                      <div class="card-meta">
-                        <span class="meta-tag">Draft</span>
-                        <span class="meta-date">Planned</span>
-                      </div>
-                      <h3 class="card-title">DEMO TITLE 1</h3>
-                      <p class="card-desc">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nostrum fugiat
-                        amet nemo fugit doloremque sequi aperiam officiis non iusto.
-                      </p>
-                    </div>
-                  </article>
-
-                  <article class="data-card reveal" data-category="publications">
-                    <div class="card-thumb placeholder-thumb">
-                      <span>Research Media Thumbnail</span>
-                    </div>
-                    <div class="card-body">
-                      <div class="card-meta">
-                        <span class="meta-tag">Draft</span>
-                        <span class="meta-date">Planned</span>
-                      </div>
-                      <h3 class="card-title">DEMO TITLE 2</h3>
-                      <p class="card-desc">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nostrum fugiat
-                        amet nemo fugit doloremque sequi aperiam officiis non iusto.
-                      </p>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </div>
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+              Send Message
+            </button>
+          </form>
         </div>
-      </section>
-
-      <!-- ═══════════════════════════════════════ -->
-      <!-- 6. CREDENTIALS SECTION                  -->
-      <!-- ═══════════════════════════════════════ -->
-      <section class="section credentials" id="credentials">
-        <div class="container">
-          <div class="section-header reveal">
-            <span class="section-label">Distinctions &amp; Activities</span>
-            <h2 class="section-title">Credentials</h2>
-          </div>
-
-          <!-- Accessible Category Tabs -->
-          <div class="tab-wrapper" data-tab-group="credentials">
-            <div class="tab-list" role="tablist" aria-label="Credentials Filter">
-              <button
-                class="tab-btn active"
-                role="tab"
-                aria-selected="true"
-                aria-controls="cred-all"
-                id="tab-cred-all"
-                data-filter="all"
-              >
-                All
-              </button>
-              <button
-                class="tab-btn"
-                role="tab"
-                aria-selected="false"
-                aria-controls="cred-honor"
-                id="tab-cred-honor"
-                data-filter="honor"
-                tabindex="-1"
-              >
-                Honor
-              </button>
-              <button
-                class="tab-btn"
-                role="tab"
-                aria-selected="false"
-                aria-controls="cred-participation"
-                id="tab-cred-participation"
-                data-filter="participation"
-                tabindex="-1"
-              >
-                Participation
-              </button>
-            </div>
-
-            <div class="tab-panels">
-              <div class="tab-panel active" id="cred-all" role="tabpanel" aria-labelledby="tab-cred-all">
-                <div class="cards-grid">
-                  <!-- Honor 1 -->
-                  <article class="data-card reveal" data-category="honor">
-                    <div class="card-thumb">
-                      <img
-                        src="./assets/honors/honors_prothom_alo_certificate.jpeg"
-                        alt="Presidency University–Prothom Alo HSC GPA-5 Reception 2025 Certificate"
-                        class="card-thumb-img"
-                        loading="lazy"
-                      />
-                    </div>
-                    <div class="card-body">
-                      <div class="card-meta">
-                        <span class="badge badge-leadership">Honor</span>
-                        <time class="meta-date">2025</time>
-                      </div>
-                      <h3 class="card-title">
-                        Presidency University–Prothom Alo HSC GPA-5 Reception 2025
-                      </h3>
-                      <p class="card-desc">
-                        Recognized for outstanding academic achievement after earning a perfect GPA
-                        5.00 in the HSC examinations.
-                      </p>
-                    </div>
-                  </article>
-
-                  <!-- Participation 1 -->
-                  <article class="data-card reveal" data-category="participation">
-                    <div class="card-thumb placeholder-thumb">
-                      <img
-                        src="assets/certs/nasa-space-apps-2026.jpg"
-                        alt="NASA Space Apps Challenge 2026 Certificate"
-                        class="card-thumb-img fallback-hidden"
-                        loading="lazy"
-                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                      />
-                      <div class="cert-img-placeholder">
-                        <span>NASA Space Apps 2026 Certificate</span>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <div class="card-meta">
-                        <span class="badge badge-engineering">Participation</span>
-                        <time class="meta-date">Nov 2026</time>
-                      </div>
-                      <h3 class="card-title">NASA Space Apps Challenge 2026 – Participant</h3>
-                      <p class="card-desc">
-                        Organization: NASA Space Apps Challenge Bangladesh 2026<br />
-                        Skills: Problem Solving, Team Collaboration
-                      </p>
-                    </div>
-                  </article>
-
-                  <!-- Placeholder Credential 1 -->
-                  <article class="data-card reveal" data-category="honor">
-                    <div class="card-thumb placeholder-thumb">
-                      <span>Award Thumbnail</span>
-                    </div>
-                    <div class="card-body">
-                      <div class="card-meta">
-                        <span class="badge badge-leadership">Honor</span>
-                        <span class="meta-date">Planned</span>
-                      </div>
-                      <h3 class="card-title">DEMO Title 2</h3>
-                      <p class="card-desc">DEMO Description 2</p>
-                    </div>
-                  </article>
-
-                  <!-- Placeholder Credential 2 -->
-                  <article class="data-card reveal" data-category="participation">
-                    <div class="card-thumb placeholder-thumb">
-                      <span>Certificate Thumbnail</span>
-                    </div>
-                    <div class="card-body">
-                      <div class="card-meta">
-                        <span class="badge badge-engineering">Participation</span>
-                        <span class="meta-date">Planned</span>
-                      </div>
-                      <h3 class="card-title">DEMO TITLE 1</h3>
-                      <p class="card-desc">DEMO ORG &middot; In Progress / Planned</p>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ═══════════════════════════════════════ -->
-      <!-- 7. CONTACT SECTION                      -->
-      <!-- ═══════════════════════════════════════ -->
-      <section class="section contact" id="contact">
-        <div class="container">
-          <div class="section-header reveal">
-            <span class="section-label">Communication</span>
-            <h2 class="section-title">Get in Touch</h2>
-          </div>
-
-          <div class="contact-grid">
-            <div class="contact-info reveal">
-              <div class="contact-item">
-                <div class="contact-icon" aria-hidden="true">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                    <polyline points="22,6 12,13 2,6" />
-                  </svg>
-                </div>
-                <div>
-                  <p class="contact-label">Email</p>
-                  <a
-                    href="mailto:abdullahaljehan.me@gmail.com"
-                    class="contact-value contact-link"
-                    id="emailLink"
-                    title="Click to copy email address"
-                  >
-                    abdullahaljehan.me@gmail.com
-                  </a>
-                </div>
-              </div>
-
-              <div class="contact-item">
-                <div class="contact-icon" aria-hidden="true">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                    <circle cx="12" cy="10" r="3" />
-                  </svg>
-                </div>
-                <div>
-                  <p class="contact-label">Location</p>
-                  <p class="contact-value">Dhaka, Bangladesh</p>
-                </div>
-              </div>
-
-              <div class="contact-resume-block">
-                <p class="contact-label">Curriculum Vitae</p>
-                <a
-                  href="assets/resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn btn-outline btn-sm"
-                  id="contactResumeBtn"
-                >
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                    <polyline points="14 2 14 8 20 8" />
-                    <line x1="16" y1="13" x2="8" y2="13" />
-                    <line x1="16" y1="17" x2="8" y2="17" />
-                  </svg>
-                  View / Download Resume (PDF)
-                </a>
-              </div>
-
-              <div class="contact-socials">
-                <a
-                  href="https://github.com/abdullahaljehan-me"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="social-link"
-                  aria-label="GitHub"
-                >
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/abdullahaljehan-me/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="social-link"
-                  aria-label="LinkedIn"
-                >
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  href="https://facebook.com/abdullah.al.jehan.zim"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="social-link"
-                  aria-label="Facebook"
-                >
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  href="https://instagram.com/abdullahaljehan.me"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="social-link"
-                  aria-label="Instagram"
-                >
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  href="https://discord.com/users/1007330418598625281"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="social-link"
-                  aria-label="Discord"
-                >
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                      d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  href="https://wa.link/26liq0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="social-link"
-                  aria-label="WhatsApp"
-                >
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                      d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.199-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.506-.669-.514-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Form preserves existing formsubmit.co endpoint & structure -->
-            <form
-              class="contact-form reveal"
-              id="contactForm"
-              action="https://formsubmit.co/abdullahaljehan.me@gmail.com"
-              method="POST"
-            >
-              <input type="hidden" name="_subject" value="New Portfolio Collaboration Message" />
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_template" value="table" />
-
-              <div class="form-group">
-                <label for="name" class="form-label">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  class="form-input"
-                  placeholder="Your name"
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="form-input"
-                  placeholder="your@email.com"
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label for="message" class="form-label">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  class="form-input form-textarea"
-                  placeholder="Write your message..."
-                  rows="5"
-                  required
-                ></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-accent btn-full" id="submitBtn">
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
     <!-- ═══════════════════════════════════════ -->
-    <!-- FOOTER                                  -->
+    <!-- UPGRADED MULTI-COLUMN FOOTER            -->
     <!-- ═══════════════════════════════════════ -->
     <footer class="footer">
-      <div class="container footer-grid">
+      <div class="container footer-main-grid">
+        <!-- Brand & Bio -->
         <div class="footer-brand-col">
-          <a href="#home" class="footer-brand">Abdullah Al Jehan</a>
-          <!-- VERBATIM APPROVED BIO -->
+          <a href="#home" class="footer-brand-logo">
+            <img
+              src="assets/profile.jpg"
+              alt="Abdullah Al Jehan Avatar"
+              class="footer-avatar-img"
+            />
+            <span>Abdullah Al Jehan</span>
+          </a>
           <p class="footer-bio">
             Ambitious science student exploring Embedded Systems, IoT, C, Linux,
             and Robotics. <br />
             Founding Advisor @ Kynatium Labs.
           </p>
-          <p class="footer-motto">In pursuit of endless horizons</p>
+          <div class="footer-location-badge">
+            <span class="location-dot"></span> Dhaka, Bangladesh
+          </div>
         </div>
 
-        <div class="footer-nav-col">
+        <!-- Quick Links -->
+        <div class="footer-links-col">
           <h4 class="footer-col-title">Navigation</h4>
           <ul class="footer-link-list">
-            <li><a href="#about">About</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills & Focus</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#credentials">Credentials</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Featured Projects</a></li>
           </ul>
         </div>
 
-        <div class="footer-social-col">
-          <h4 class="footer-col-title">Connect</h4>
+        <!-- Research & Writing -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Knowledge</h4>
           <ul class="footer-link-list">
-            <li>
-              <a href="https://github.com/abdullahaljehan-me" target="_blank" rel="noopener noreferrer">
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/abdullahaljehan-me/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://facebook.com/abdullah.al.jehan.zim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://instagram.com/abdullahaljehan.me"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://discord.com/users/1007330418598625281"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://wa.link/26liq0" target="_blank" rel="noopener noreferrer">
-                WhatsApp
-              </a>
-            </li>
+            <li><a href="#research">Research & Publications</a></li>
+            <li><a href="#blogs">Blogs & Articles</a></li>
+            <li><a href="#certifications">Courses & Certifications</a></li>
+            <li><a href="#honors">Honors & Awards</a></li>
+            <li><a href="#contact">Get in Touch</a></li>
           </ul>
+        </div>
+
+        <!-- Connect & Resources -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Connect</h4>
+          <div class="footer-social-icons">
+            <a
+              href="https://github.com/abdullahaljehan-me"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-social-btn"
+              title="GitHub"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abdullah-al-jehan"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-social-btn"
+              title="LinkedIn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://facebook.com/abdullah.al.jehan.zim"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-social-btn"
+              title="Facebook"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a
+              href="https://instagram.com/abdullahaljehan.me"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-social-btn"
+              title="Instagram"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"
+                />
+              </svg>
+            </a>
+
+            <!-- Discord -->
+            <a
+              href="https://discord.com/users/1007330418598625281"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-social-btn"
+              title="Discord"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"
+                />
+              </svg>
+            </a>
+
+            <!-- WhatsApp -->
+            <a
+              href="https://wa.link/26liq0"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-social-btn"
+              title="WhatsApp"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.199-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.506-.669-.514-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
-      <div class="container footer-bottom">
+      <!-- Bottom Bar -->
+      <div class="container footer-bottom-bar">
         <p class="footer-copy">
-          &copy; 2026 Abdullah Al Jehan. Source code available on
-          <a
-            href="https://github.com/abdullahaljehan-me/portfolio"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="footer-source-link"
-            >GitHub</a
-          >.
+          &copy; 2026 Abdullah Al Jehan. Crafted with HTML5, CSS3 & JavaScript.
         </p>
+        <a href="#home" class="footer-back-link">Back to Top &uarr;</a>
       </div>
+
+      <a
+        href="#home"
+        class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polyline points="18 15 12 9 6 15" />
+        </svg>
+      </a>
     </footer>
 
     <!-- ═══════════════════════════════════════ -->
-    <!-- INTERACTIVE CLI TERMINAL DRAWER         -->
+    <!-- FLOATING ANIMATED TERMINAL BUTTON & DRAWER -->
     <!-- ═══════════════════════════════════════ -->
-    <div class="cli-toggle-wrapper">
+    <div class="floating-term-wrapper">
+      <span class="term-pulse-ring"></span>
+      <span class="term-tooltip">Interactive CLI (Ctrl+~)</span>
       <button
-        id="cliToggle"
-        class="cli-toggle-btn"
+        id="floatingTermBtn"
+        class="floating-term-btn"
         aria-label="Open interactive terminal"
-        title="Interactive CLI (Ctrl+`)"
       >
-        &gt;_
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polyline points="4 17 10 11 4 5" />
+          <line x1="12" y1="19" x2="20" y2="19" />
+        </svg>
       </button>
     </div>
 
-    <div class="terminal-drawer" id="terminalDrawer" role="region" aria-label="Interactive Terminal" aria-hidden="true">
+    <div class="terminal-drawer" id="terminalDrawer" aria-hidden="true">
       <div class="terminal-header">
         <div class="terminal-controls">
-          <span class="term-btn term-close" id="termCloseBtn" title="Close Terminal"></span>
-          <span class="term-btn term-min" id="termMinBtn" title="Minimize"></span>
-          <span class="term-btn term-max" id="termMaxBtn" title="Maximize"></span>
+          <span
+            class="term-btn term-close"
+            id="termCloseBtn"
+            title="Close Terminal"
+          ></span>
+          <span
+            class="term-btn term-min"
+            id="termMinBtn"
+            title="Minimize"
+          ></span>
+          <span
+            class="term-btn term-max"
+            id="termMaxBtn"
+            title="Maximize"
+          ></span>
         </div>
-        <div class="terminal-title">jehan@aust:~ (bash/zsh)</div>
+        <div class="terminal-title">jehan@embedded-sys:~ (v2.0.0-pro)</div>
         <div class="terminal-actions">
           <button id="termClearBtn" title="Clear console">clear</button>
         </div>
       </div>
       <div class="terminal-body" id="terminalOutput">
-        <div class="term-line banner">Abdullah Al Jehan — Interactive Portfolio Shell</div>
+        <div class="term-line banner">
+          ⚡ Abdullah Al Jehan Interactive Systems Shell v2.0
+        </div>
         <div class="term-line info">
-          Type '<span class="term-cmd">help</span>' for available commands, or '<span
+          Type '<span class="term-cmd">help</span>' for available commands,
+          '<span class="term-cmd">neofetch</span>' for system info, or '<span
             class="term-cmd"
-            >neofetch</span
-          >' for system details.
+            >bio</span
+          >' to learn more. Shortcut: <kbd>Ctrl+~</kbd>
         </div>
         <div class="term-line spacer"></div>
       </div>
 
       <div class="terminal-input-row">
-        <span class="term-prompt">jehan@portfolio:~$</span>
+        <span class="term-prompt">jehan@sys:~$</span>
         <input
           type="text"
           id="terminalInput"
           class="terminal-input"
-          placeholder="Type 'help'..."
+          placeholder="Type 'help' for commands..."
           autocomplete="off"
           spellcheck="false"
         />
       </div>
     </div>
 
+    <div class="toast-container" id="toastContainer"></div>
+
     <!-- Technical Breakdown Modal -->
-    <dialog id="breakdownModal" class="breakdown-modal" aria-modal="true">
+    <dialog id="breakdownModal" class="breakdown-modal">
       <div class="modal-content">
         <div class="modal-header">
           <h3 id="modalTitle">Project Breakdown</h3>
-          <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close modal">
-            &times;
+          <button
+            id="modalCloseBtn"
+            class="modal-close-btn"
+            aria-label="Close modal"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
           </button>
         </div>
-        <div id="modalBody" class="modal-body"></div>
+        <div id="modalBody" class="modal-body">
+          <!-- Content injected via JS -->
+        </div>
       </div>
     </dialog>
 
-    <!-- Toast Notification Container -->
-    <div class="toast-container" id="toastContainer" aria-live="polite"></div>
-
-    <!-- Application Script -->
+    <!-- Main Script (Load only ONCE at the end of the body) -->
     <script src="script.js"></script>
   </body>
 </html>
